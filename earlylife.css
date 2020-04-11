@@ -1,15 +1,44 @@
-#pk{
-    text-align: center;
-    padding: 0;
-    background-color: deepskyblue;
+body {
+  padding: 0px;
+  margin: 0px;
+  color: aliceblue;
+  background-image: url(cool.jpg);
+  background-size: cover;
+  background-size: 100%;
 }
-h1{
-    text-align: center;
-    padding: 20px;
-}
-p{
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+
+#el {
+  background: rgba(0, 0, 0,0.76);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 
 }
+.bs h1{
+  font-size: 30px;
+  width: 200px;
+  background: rgba(0, 0, 0,0.76);
+  padding: 20px;
+  text-align: center;
+  margin-left: 630px;
+}
+.bs p{
+  font-size: 100%;
+  font-family: monospace;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-transform: none;
+  background: rgba(0, 0, 0,0.76);
+
+}
+
+.footer{
+  color: whitesmoke;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  padding-left: 1300px;
+  background-color: rgba(0, 0, 0,0.8);
+}
+/*# sourceMappingURL=earlylife.css.map */

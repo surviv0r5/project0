@@ -1,0 +1,83 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+  background-color: oldlace;
+  background-size: cover;
+  background-image: url(cool.jpg);
+}
+
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.box h5 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.box p {
+  text-align: justify;
+}
+
+.box ul {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+  background: 0;
+  background-color: 0;
+}
+
+.box li a:hover {
+  color: #42f5ec;
+}
+
+.footer {
+  color: whitesmoke;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  padding-left: 1160px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer p a {
+  padding-right: 35px;
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+  color: white;
+}
+
+.footer p a:hover {
+  color: #42f5ec;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
